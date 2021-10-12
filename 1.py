@@ -1,0 +1,1 @@
+send_message("What's your favorite trivia topic?")
