@@ -1,5 +1,5 @@
 # Change the text of welcome:
-welcome = "Hi! Let's put your trivia knowledge to the test. I bet you will ace it!"
+welcome = "Hi! Let's put your trivia knowledge to the test. I bet you will ace it!" \
 
 
 # Call the function send_message with the variable welcome
