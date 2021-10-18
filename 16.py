@@ -7,7 +7,8 @@ send_message(welcome)
 trivia_quiz = [
     {
 		"question": "What is the oldest country's name?",
-		"answer": "San Marino"
+		"answer": "San Marino",
+	    	"really": "America"
 	}
 ]
 
@@ -19,6 +20,8 @@ for t in trivia_quiz:
         # Define text when the user answer correctly
         send_message("Good Job!")
         count += 1
+    if response == t["really"]:
+	send_message("You can't honestly be this stupid?")
     else:
         # Define text when the user didn't answer correctly
         send_message("%s is actually correct!" % 
